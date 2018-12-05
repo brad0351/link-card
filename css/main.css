@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: normal 100%/1.5 'Dosis', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color:#f0eee8;
+  padding: 1rem;
+}
+
+.link-card {
+  background-color: #cabdb2;
+  text-decoration: none;
+}
+
+.link-card:hover {
+display: inline-block;
+}
+
+.btn {
+  right: 300px;
+  bottom: 540px;
+  display: inline-block;
+  padding: .5em .75em .4em;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #785439;
+  font-weight: bold;
+}
