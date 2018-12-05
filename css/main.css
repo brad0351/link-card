@@ -44,6 +44,7 @@ h2 {
 
 .link-card:hover {
   display: inline-block;
+  background-color: #cabdb2;
 }
 
 .btn {
