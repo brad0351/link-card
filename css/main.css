@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Dosis", georgia;
+  font-family: 'Dosis', georgia;
   line-height: 1.5em;
   font-style: normal;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  background-color:#f0eee8;
+  background-color: #f0eee8;
   line-height: 1.5;
   padding: .5em;
   margin: 0;
@@ -30,20 +30,16 @@ main {
   padding: 1em;
 }
 
-
 .link-card h2 {
   font-family: "Dosis";
   color: #512200;
-  font-weight: bold
-
+  font-weight: bold;
 }
 
 h2 {
   padding: 0;
   margin: 0 0 0em;
   font-size: 1.5rem;
-
-
 }
 
 .link-card:hover {
@@ -58,7 +54,7 @@ display: inline-block;
   color: #fff;
   background-color: #785439;
   font-size: 1.125rem;
-  font-family: "Dosis"
+  font-family: 'Dosis';
 }
 
 .btn:hover{
@@ -72,7 +68,6 @@ dl {
   padding-bottom: 1.25em;
   padding-top: 1.25em;
   font-size: .875rem;
-  font-weight: 400;
 }
 
 dt {
