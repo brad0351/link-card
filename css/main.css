@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: normal 100%/1.5 "Dosis", georgia;
+  font-family: "Dosis", georgia;
+  line-height: 1.5em;
+  font-style: normal;
 }
 
 *, *::before, *::after {
@@ -13,24 +15,35 @@ body {
 
 main {
   background-color:#f0eee8;
-  padding: 1rem;
   line-height: 1.5;
+  padding: .5em;
+  margin: 0;
 }
 
 .link-card {
   background-color: #dcd4cd;
   text-decoration: none;
-  color: #785439;
+  color: #512200;
   display: inline-block;
   border-radius: 8px;
-  border: 4px solid #512200;
+  border: 3px solid #785439;
+  padding: 1em;
 }
 
 
 .link-card h2 {
   font-family: "Dosis";
   color: #512200;
-  font-weight: bold;
+  font-weight: bold
+
+}
+
+h2 {
+  padding: 0;
+  margin: 0 0 0em;
+  font-size: 1.5rem;
+
+
 }
 
 .link-card:hover {
@@ -53,9 +66,13 @@ display: inline-block;
 }
 
 dl {
-  font-family: georgia;
+  font-family: Georgia;
+  border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   padding-bottom: 1.25em;
+  padding-top: 1.25em;
+  font-size: .875rem;
+  font-weight: 400;
 }
 
 dt {
@@ -72,10 +89,20 @@ dd {
 }
 
 p {
-  border-bottom: 2px solid #9a816d;
-  padding: 0 0 1em;
+  font-size: 1em;
+  margin: 0;
+  padding-top: 1em;
+  font-family: georgia;
 }
 
 div {
   text-align: center;
+  font-weight: bolder;
+  padding: 0;
+}
+
+div p {
+  margin: 0;
+  margin-bottom: .5em;
+  font-weight: bolder;
 }
